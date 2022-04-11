@@ -1,0 +1,302 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+body {
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+    background-image: url("stars.jpg");
+    background-size: cover;
+}
+
+section {
+    margin: 20px;
+    padding: 0 0px 60px;
+    border: 0.1px solid rgb(143, 143, 143);
+    box-sizing: border-box;
+    background-color:#1c1c1c;
+
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid transparent;
+}
+div {
+    border: 1px solid transparent;
+}
+
+
+
+
+
+
+.nav1 {
+    width: 100%;
+    height: 7vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #c1311b;
+    color: white;
+}
+
+.nav1 .logo {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.nav1 .options a {
+    width: 75px;
+    height: 30px;
+    margin: 0 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav1 .options a:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav1 li {
+    float: left;
+}
+
+.nav1 .socials a {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.nav1 .socials a:hover {
+    background-color: #3b3b3b;
+}
+
+
+
+
+
+
+
+
+
+.nav2 {
+    width: 100%;
+    height: 7vh;
+    padding-left: 3vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    background-color: #c1311b;
+    color: white;
+}
+
+.nav2 .group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 .logo {
+    padding-right: 4vw;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.nav2 .options a {
+    width: 75px;
+    height: 30px;
+    margin: 0 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav2 .options a:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav2 li {
+    float: left;
+}
+
+.nav2 .socials a {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.nav2 .socials a:hover {
+    background-color: #3b3b3b;
+}
+
+
+
+
+
+
+
+
+.s3 {
+    height: 90vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav3 {
+    width: 60px;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #c1311b;
+    color: white;
+}
+
+.nav3 .logo {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nav3 .options ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav3 .options a {
+    width: 40px;
+    height: 40px;
+    padding: 2px 2px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav3 .options a:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav3 li {
+    float: left;
+}
+
+.nav3 .socials ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav3 .socials a {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 2px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.nav3 .socials a:hover {
+    border: 2px solid white;
+}
+
+.nav3 {
+    a {
+        background-color: white;
+    }
+}
