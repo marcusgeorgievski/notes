@@ -82,6 +82,14 @@ div {
 
 
 
+#active {
+    border-bottom: 2px solid white;
+}
+
+
+
+
+
 
 .nav1 {
     width: 100%;
@@ -218,7 +226,8 @@ div {
 
 
 .s3 {
-    height: 90vh;
+    height: 100vh;
+    padding: 0;
 
     display: flex;
     justify-content: space-between;
@@ -226,7 +235,7 @@ div {
 
 .nav3 {
     width: 60px;
-    height: 90vh;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -235,6 +244,10 @@ div {
 
     background-color: #c1311b;
     color: white;
+}
+
+.nav3 .expand {
+    flex-grow: 0;
 }
 
 .nav3 .logo {
@@ -293,10 +306,4 @@ div {
 
 .nav3 .socials a:hover {
     border: 2px solid white;
-}
-
-.nav3 {
-    a {
-        background-color: white;
-    }
 }
