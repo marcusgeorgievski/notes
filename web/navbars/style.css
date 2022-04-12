@@ -246,10 +246,29 @@ div {
 }
 
 .nav22 .logo {
+    height: 7vh;
     padding-right: 4vw;
     font-weight: 700;
     font-size: 1.3em;
+
+    display: flex;
+    align-items: center;
+
+
+    transition: 0.3s ease-in;
 }
+
+.nav22 .logo:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(4px); }
+    33% { transform: translate(-4px); }
+    66% { transform: translate(-4px); }
+    100% { transform: translate(4px); }
+  }
 
 .nav22 .options a {
     width: 75px;
@@ -266,6 +285,7 @@ div {
 
 .nav22 .options a:hover {
     border-bottom: 2px solid white;
+    transform: scale(1.1);
 }
 
 .nav22 li {
@@ -291,11 +311,12 @@ div {
     justify-content: center;
     align-items: center;
 
+    transition: 0.2s;
 }
 
 #hov {
-    padding-right: 10px;
-    border-right: 2px solid transparent;
+    padding-left: 10px;
+    border-left: 2px solid transparent;
 }
 
 .nav22 .socials:hover .hidden {
@@ -304,12 +325,12 @@ div {
 }
 
 .nav22 .hidden a:hover {
-    background-color: #3b3b3b;
+    transform: scale(1.6);
     border-radius: 50%;
 }
 
 .nav22 .socials:hover #hov {
-    border-right: 2px solid white;
+    border-left: 2px solid white;
 }
 
 section:nth-of-type(3) p {
